@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: brown;
+    color: #fff;
+}
+h1{
+    text-align: center;
+}
+.coluna{
+    width: 100%;
+    padding: 8px;
+}
+.prince-box{
+    background-color: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+}
+
+li{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 20px solid #eee;
+}
+.corpo{
+    display: flex;
+}
+@media(max-width:720px)
+{
+    .corpo{
+        flex-direction: column;
+    }
+}
